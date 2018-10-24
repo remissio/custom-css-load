@@ -38,7 +38,11 @@
     background-color: var(--background); } }
 h1, h2, h3, h4 {
   color: var(--text); }
-  
+
+#edit_topic_container:hover {
+  overflow: hidden !important;
+}
+
 textarea,
 input[type="text"],
 #file_comment_textarea {
