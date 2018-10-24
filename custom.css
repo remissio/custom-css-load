@@ -4,8 +4,8 @@
   --primary: #1793d1;
   --accent: #568AF2;
   --text: #ABB2BF;
-  --background: #282C34;
-  --background-elevated: #3B4048;
+  --background: #222222;
+  --background-elevated: rgba(255,255,255,0.1);
   /* These should be less important: */
   --background-hover: #525964;
   --background-light: #AAA;
@@ -39,9 +39,6 @@
 h1, h2, h3, h4 {
   color: var(--text); }
 
-* {
-  background-color: rgba(0,0,0,0);
-}
 textarea,
 input[type="text"],
 #file_comment_textarea {
