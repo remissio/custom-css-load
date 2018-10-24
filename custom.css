@@ -61,6 +61,14 @@ select {
 hr {
   border-top: 1px solid var(--border-bright); }
 
+.c-message__file .c-file_container {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.c-email__header {
+  color: rgba(255,255,255,1);
+}
+
 a, a:link, a:visited {
   color: var(--text-special); 
   background-color: rgba(0,0,0,0);}
