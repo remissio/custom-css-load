@@ -40,10 +40,6 @@
 h1, h2, h3, h4 {
   color: var(--text); }
 
-a:link.c-member_slug--link {
-    background-color: var(--link-background)!important; 
-}
-
 textarea,
 input[type="text"],
 #file_comment_textarea {
@@ -66,7 +62,8 @@ hr {
   border-top: 1px solid var(--border-bright); }
 
 a, a:link, a:visited {
-  color: var(--text-special); }
+  color: var(--text-special); 
+  background-color: rgba(0,0,0,0);}
   a:hover, a:link:hover, a:visited:hover {
     color: var(--text-special); }
 
