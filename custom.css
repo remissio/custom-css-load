@@ -62,8 +62,7 @@ hr {
   border-top: 1px solid var(--border-bright); }
 
 a, a:link, a:visited {
-  color: var(--text-special); 
-  background-color: var(--link-background); }
+  color: var(--text-special); }
   a:hover, a:link:hover, a:visited:hover {
     color: var(--text-special); }
 
@@ -1697,6 +1696,10 @@ ts-mention.ts_tip:hover {
   color: var(--text) !important;
   opacity: 0.64;
   font-style: italic; }
+
+.c-member__slug--link {
+  background-color: var(--link-background); 
+}
 
 .c-member__title {
   color: var(--text) !important;
