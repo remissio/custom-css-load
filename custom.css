@@ -1698,7 +1698,7 @@ ts-mention.ts_tip:hover {
   font-style: italic; }
 
 .c-member__slug--link {
-  background-color: var(--link-background); 
+  background-color: var(--link-background)!important; 
 }
 
 .c-member__title {
