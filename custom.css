@@ -4,12 +4,12 @@
   --primary: #1793d1;
   --accent: #568AF2;
   --text: #ABB2BF;
-  --background: #222222;
-  --background-elevated: #333333;
+  --background: #282C34;
+  --background-elevated: #3B4048;
   /* These should be less important: */
   --background-hover: #525964;
   --background-light: #AAA;
-  --background-bright: #FFF;
+  --background-bright: #000;
   --border-dim: #666;
   --border-bright: var(--primary);
   --text-bright: #FFF;
@@ -38,7 +38,7 @@
     background-color: var(--background); } }
 h1, h2, h3, h4 {
   color: var(--text); }
-
+  
 textarea,
 input[type="text"],
 #file_comment_textarea {
