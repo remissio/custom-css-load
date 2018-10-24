@@ -61,13 +61,6 @@ select {
 hr {
   border-top: 1px solid var(--border-bright); }
 
-.c-message__file .c-file_container {
-  background-color: rgba(0,0,0,0.3);
-}
-
-.c-email__header {
-  color: rgba(255,255,255,1);
-}
 
 a, a:link, a:visited {
   color: var(--text-special); 
@@ -1389,6 +1382,9 @@ pre.special_formatting {
 
 .c-file_container--gradient::after {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), var(--background)); }
+
+.c-file_container {
+  background: rgba(0,0,0,0.3); }
 
 /* Channels */
 .creator_link,
