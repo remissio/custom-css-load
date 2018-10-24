@@ -1383,9 +1383,6 @@ pre.special_formatting {
 .c-file_container--gradient::after {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0), var(--background)); }
 
-.c-file_container {
-  background: rgba(0,0,0,0.3); }
-
 /* Channels */
 .creator_link,
 .creator_link:hover,
