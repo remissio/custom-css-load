@@ -41,10 +41,10 @@ h1, h2, h3, h4 {
   color: var(--text); }
 
 
-  .c-member__slug--link {
+a.c-member_slug.c-member_slug--link {
     background-color: var(--link-background)!important; 
-  }
-  
+}
+
 textarea,
 input[type="text"],
 #file_comment_textarea {
